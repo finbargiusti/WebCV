@@ -18,7 +18,7 @@ window.addEventListener('scroll', function() {
 
 	// Sub-title position
 
-	var subtitles = document.getElementsByClassName("content-title");
+	var subtitles = document.getElementsByClassName("original");
 	var content = document.getElementById("content");
 	var trynum = 0;
 	for (var i = 0; i < subtitles.length; ++i) {
@@ -26,7 +26,7 @@ window.addEventListener('scroll', function() {
 			console.log("aperape");
 			newElment = subtitles[i].cloneNode(true);
 			newElment.id = "hovering";
-			newElment.class = "NULL"
+			newElment.className = "content-title"
 			newElment.style.position = "fixed";
 			newElment.style.top = title.clientHeight + "px";
 			try {content.removeChild(document.getElementById("hovering")); }
@@ -35,6 +35,7 @@ window.addEventListener('scroll', function() {
 			++trynum;
 		}
 	}
+	console.log(trynum);
 	if (trynum == 0) {
 		try {content.removeChild(document.getElementById("hovering")); }
 		catch(err) {}

@@ -1,0 +1,685 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"conten",
+				"content-wrapper\t(main.css)"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"co",
+				"code\t<code>"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"style",
+				"list-style"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"overfl",
+				"overflow"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"tran",
+				"translateX()"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"marign",
+				"margin-left"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"link",
+				"links\tlink - stylesheet"
+			],
+			[
+				"overflo",
+				"overflow-y"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"html",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"socket",
+				"socketNumber"
+			],
+			[
+				"new",
+				"newSocket\t(EzComms.h)"
+			],
+			[
+				"conn",
+				"connType"
+			],
+			[
+				"Connec",
+				"ConnectionType"
+			],
+			[
+				"bt",
+				"bytesToRecv"
+			],
+			[
+				"bytes",
+				"bytesRemain"
+			],
+			[
+				"bytse",
+				"bytesRemain"
+			],
+			[
+				"Conn",
+				"ConnectionType\t(EzComms.h)"
+			],
+			[
+				"st",
+				"stdinlen"
+			],
+			[
+				"byte",
+				"bytesToRecv"
+			],
+			[
+				"si",
+				"sizebuf"
+			],
+			[
+				"sen",
+				"sendsize"
+			],
+			[
+				"hand",
+				"handleSend"
+			],
+			[
+				"by",
+				"bytesToRecv"
+			],
+			[
+				"size",
+				"sizebuf"
+			],
+			[
+				"std",
+				"stdinput"
+			],
+			[
+				"rec",
+				"receivedString"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1806,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 1812,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (All)"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (This File Only)"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 124.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"gt com",
+				"Git: Commit"
+			],
+			[
+				"git add al",
+				"Git: Add All"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git ad",
+				"Git: Add All"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"git rm",
+				"Git: Track Remote Branch"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"add all",
+				"Git: Add All"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"git log",
+				"Git: Log All"
+			],
+			[
+				"git commi",
+				"Git: Commit"
+			],
+			[
+				"gitpush",
+				"Git: Push"
+			],
+			[
+				"git p",
+				"Git: Pull"
+			],
+			[
+				"syn",
+				"Set Syntax: C++"
+			],
+			[
+				"mak",
+				"Build With: Make"
+			],
+			[
+				"make",
+				"Build With: Make"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"gt",
+				"Git: Toggle Annotations"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"git unsta",
+				"Git: Reset (unstage) All"
+			],
+			[
+				"git comit",
+				"Git: Commit"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git uns",
+				"Git: Reset (unstage) All"
+			],
+			[
+				"term",
+				"Open Terminal View - Bash"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"error",
+				"Package Control: Remove Repository"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"git l",
+				"Git: Log All"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"gir",
+				"Set Syntax: Graphviz (DOT)"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"intst",
+				"Install Package Control"
+			]
+		],
+		"width": 551.0
+	},
+	"console":
+	{
+		"height": 131.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/finbargiusti/Projects/WebCV",
+		"/home/finbargiusti/Projects/WebCV/css"
+	],
+	"file_history":
+	[
+		"/home/finbargiusti/Projects/EzComms/index.html",
+		"/home/finbargiusti/Projects/EzComms/js/lib.js",
+		"/home/finbargiusti/Projects/EzComms/css/androidstudio.css",
+		"/home/finbargiusti/Projects/EzComms/.gitignore",
+		"/home/finbargiusti/Projects/EzComms/uhh.cpp",
+		"/home/finbargiusti/Projects/EzComms/testreceive.cpp",
+		"/home/finbargiusti/Projects/EzComms/testsend.cpp",
+		"/home/finbargiusti/Projects/EzComms/EzComms.h",
+		"/home/finbargiusti/Projects/EzComms/EzComms.cpp",
+		"/home/finbargiusti/Projects/EzComms/README.md",
+		"/home/finbargiusti/Projects/EzComms/makefile",
+		"/home/finbargiusti/Projects/Positron/server.cpp",
+		"/home/finbargiusti/Projects/Positron/.gitignore",
+		"/home/finbargiusti/Projects/DrawTogether/src/client/css/main.css",
+		"/home/finbargiusti/Projects/DrawTogether/src/client/index.html",
+		"/home/finbargiusti/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/finbargiusti/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1806,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1325,
+								1325
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 87
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 39.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1812,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1168,
+								1168
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 243.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 50.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 103.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 103.0
+	},
+	"output.vi_out":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "",
+	"project": "WebCV.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/DrawTogether/DrawTogether.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 183.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

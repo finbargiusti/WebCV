@@ -28,10 +28,6 @@ body {
 	transform:translateY(-50%);
 	background-color: #4caf50;
 }
-/*FIXME remove that bullshit*/
-#content {
-	height:100vw;
-}
 .content-title {
 	font-family: RobotoBold;
 	line-height: 2;
@@ -47,6 +43,9 @@ body {
 	#header-wrapper p {
 		font-size:5vw;
 	}
+	.content-title {
+		text-align: center;
+	}
 }
 @media all and (min-width: 600px) {
 	#header-wrapper h1 {
@@ -54,6 +53,9 @@ body {
 	}
 	#header-wrapper p {
 		font-size:4vw;
+	}
+	.content-title {
+		text-align: center;
 	}
 }
 @media all and (min-width: 1000px) {
@@ -64,8 +66,12 @@ body {
 		font-size:2vw;
 	}
 	.content-title {
-		font-size:3vw;
-		text-indent: 3em;
+		text-align: left;
+		font-size:2vw;
+		text-indent: 2em;
+	}
+	#content p {
+		max-width:90vw;
 	}
 }
 #header-wrapper h1 {
@@ -85,5 +91,23 @@ body {
 	animation: bob 1s 0s ease infinite;
 	width:2cm;
 	left:50%;
+	transform:translateX(-50%);
+}
+#content p {
+	font-family: RobotoThin;
+	color:#232323;
+	margin-left:50%;	
+	transform:translateX(-50%);
+}
+#finbar {
+	margin-left:50%;
+	max-width:300px;
+	transform: translateX(-50%);
+}
+#content h3 {
+	font-family: RobotoBold, sans-serif;
+	color:#232323;
+	max-width:90vw;
+	margin-left:50%;	
 	transform:translateX(-50%);
 }

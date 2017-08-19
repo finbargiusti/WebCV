@@ -20,7 +20,7 @@ window.addEventListener('scroll', function() {
 
 	var subtitles = document.getElementsByClassName("original");
 	var content = document.getElementById("content");
-	var trynum = 0;
+	var trynum = 0 ;
 	for (var i = 0; i < subtitles.length; ++i) {
 		if (subtitles[i].getBoundingClientRect().top <= title.clientHeight) {
 			console.log("aperape");

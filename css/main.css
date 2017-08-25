@@ -16,6 +16,11 @@ body {
 	src: url(../fonts/roboto-thin.ttf);
 	font-weight: 400;
 }
+@font-face {
+	font-family: RobotoLight;
+	src: url(../fonts/roboto-light.ttf);
+	font-weight: 400;
+}
 #pusher {
 	height:100vh;
 }
@@ -36,7 +41,8 @@ body {
 .content-title {
 	font-family: RobotoBold;
 	line-height: 2;
-	background-color: #1a1a1a; 
+/*	background-color: #1a1a1a; */
+	background-color: #7A7BAE;
 	color:ghostwhite;
 	width:100%;
 	margin:0;
@@ -116,14 +122,14 @@ body {
 	transform:translateX(-50%);
 }
 #content p {
-	font-family: RobotoThin;
+	font-family: RobotoLight;
 	/*color:#232323;*/
 	margin-left:50%;	
 	transform:translateX(-50%);
 	padding-bottom:0:
 }
 #content ul {
-	font-family: RobotoThin;
+	font-family: RobotoLight;
 	/*color:#232323;*/
 	margin-left:50%;	
 	transform:translateX(-50%);
@@ -133,7 +139,7 @@ body {
 	top:0;
 	left:0;
 	border: white 5px;
-	border-radius:5px;
+	border-radius:20px;
 	overflow:none;
 	top:10%;
 	left:10%;
@@ -146,7 +152,7 @@ body {
 	transform:translateX(-75%);
 }
 #content {
-	background-color: ghostwhite;
+	background-color: whitesmoke;
 	padding-bottom:5px;
 }
 #header-wrapper h1 {

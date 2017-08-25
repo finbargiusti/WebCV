@@ -28,9 +28,11 @@ window.addEventListener('scroll', function() {
 			newElment.className = "content-title"
 			newElment.style.position = "fixed";
 			newElment.style.top = title.clientHeight + "px";
-			try {content.removeChild(document.getElementById("hovering")); }
+			newElment.style.zIndex = "100";
+ 			try {content.removeChild(document.getElementById("hovering")); }
 			catch(err) {}
 			content.appendChild(newElment);
+			subtitles[i+1].style.zIndex = "100000";
 			++trynum;
 		}
 	}

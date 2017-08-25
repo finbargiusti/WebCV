@@ -46,6 +46,13 @@ body {
 	.content-title {
 		text-align: center;
 	}
+	#content p {
+		min-width:80vw;
+		max-width:90vw;
+	}
+	#finbar {
+		display: none;
+	}
 }
 @media all and (min-width: 600px) {
 	#header-wrapper h1 {
@@ -56,6 +63,13 @@ body {
 	}
 	.content-title {
 		text-align: center;
+	}
+	#content p {
+		min-width:80vw;
+		max-width:90vw;
+	}
+	#finbar {
+		display: none;
 	}
 }
 @media all and (min-width: 1000px) {
@@ -72,6 +86,9 @@ body {
 	}
 	#content p {
 		max-width:90vw;
+	}
+	#finbar {
+		display: block;
 	}
 }
 #header-wrapper h1 {
@@ -95,19 +112,30 @@ body {
 }
 #content p {
 	font-family: RobotoThin;
-	color:#232323;
+	/*color:#232323;*/
+	margin-left:50%;	
+	transform:translateX(-50%);
+}
+#content ul {
+	font-family: RobotoThin;
+	/*color:#232323;*/
 	margin-left:50%;	
 	transform:translateX(-50%);
 }
 #finbar {
-	margin-left:50%;
-	max-width:300px;
-	transform: translateX(-50%);
+	position: absolute;
+	top:0;
+	left:0;
+	border: white 5px;
+	border-radius:5px;
+	overflow:none;
+	top:10%;
+	left:10%;
+	height:80%;
 }
 #content h3 {
-	font-family: RobotoBold, sans-serif;
-	color:#232323;
-	max-width:90vw;
+	font-family: RobotoThin;
+	/*color:#232323;*/
 	margin-left:50%;	
-	transform:translateX(-50%);
+	transform:translateX(-75%);
 }

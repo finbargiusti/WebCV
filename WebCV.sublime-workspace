@@ -167,7 +167,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1806,
+				"buffer_size": 2150,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -176,7 +176,7 @@
 			"file": "css/main.css",
 			"settings":
 			{
-				"buffer_size": 1812,
+				"buffer_size": 1938,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -222,6 +222,18 @@
 		"selected_items":
 		[
 			[
+				"git add ",
+				"Git: Add Current File"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
 				"git push",
 				"Git: Push"
 			],
@@ -260,10 +272,6 @@
 			[
 				"git pu",
 				"Git: Push"
-			],
-			[
-				"git add",
-				"Git: Add All"
 			],
 			[
 				"git rm",
@@ -339,10 +347,6 @@
 			],
 			[
 				"git comit",
-				"Git: Commit"
-			],
-			[
-				"git commit",
 				"Git: Commit"
 			],
 			[
@@ -431,7 +435,8 @@
 	"expanded_folders":
 	[
 		"/home/finbargiusti/Projects/WebCV",
-		"/home/finbargiusti/Projects/WebCV/css"
+		"/home/finbargiusti/Projects/WebCV/css",
+		"/home/finbargiusti/Projects/WebCV/js"
 	],
 	"file_history":
 	[
@@ -495,15 +500,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1806,
+						"buffer_size": 2150,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1325,
-								1325
+								52,
+								52
 							]
 						],
 						"settings":
@@ -523,7 +528,7 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 87
+								"xpos": 46
 							}
 						},
 						"translation.x": 0.0,
@@ -539,15 +544,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1812,
+						"buffer_size": 1938,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1168,
-								1168
+								806,
+								806
 							]
 						],
 						"settings":
@@ -567,11 +572,11 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 4
+								"xpos": 11
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 243.0,
+						"translation.y": 897.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

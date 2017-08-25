@@ -1,7 +1,11 @@
 body {
-	background-color: ghostwhite;
 	margin:0;
+	padding:0;
 }
+body {
+	background: url('../images/bg.jpg');
+	background-position: cover;
+}	
 @font-face {
 	font-family: RobotoBold;
 	src: url(../fonts/roboto-bold.ttf);
@@ -26,13 +30,14 @@ body {
 	width:100%;
 	top: 50vh;
 	transform:translateY(-50%);
-	background-color: #4caf50;
+	color:#1a1a1a;
+	background-color: ghostwhite;
 }
 .content-title {
 	font-family: RobotoBold;
 	line-height: 2;
-	background-color: #087f23;
-	color:white;
+	background-color: #1a1a1a; 
+	color:ghostwhite;
 	width:100%;
 	margin:0;
 }
@@ -92,7 +97,7 @@ body {
 	}
 }
 #header-wrapper h1 {
-	line-height: 0.3;
+	line-height: 0.8;
 	font-family: RobotoBold, sans-serif;
 }
 #header-wrapper p {
@@ -115,6 +120,7 @@ body {
 	/*color:#232323;*/
 	margin-left:50%;	
 	transform:translateX(-50%);
+	padding-bottom:0:
 }
 #content ul {
 	font-family: RobotoThin;
@@ -138,4 +144,11 @@ body {
 	/*color:#232323;*/
 	margin-left:50%;	
 	transform:translateX(-75%);
+}
+#content {
+	background-color: ghostwhite;
+	padding-bottom:5px;
+}
+#header-wrapper h1 {
+	color:#1a1a1a;
 }

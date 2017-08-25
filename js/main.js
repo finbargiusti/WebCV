@@ -23,7 +23,6 @@ window.addEventListener('scroll', function() {
 	var trynum = 0 ;
 	for (var i = 0; i < subtitles.length; ++i) {
 		if (subtitles[i].getBoundingClientRect().top <= title.clientHeight) {
-			console.log("aperape");
 			newElment = subtitles[i].cloneNode(true);
 			newElment.id = "hovering";
 			newElment.className = "content-title"
@@ -40,5 +39,5 @@ window.addEventListener('scroll', function() {
 		try {content.removeChild(document.getElementById("hovering")); }
 		catch(err) {}
 	}
+
 });
- 

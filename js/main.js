@@ -42,16 +42,23 @@ window.addEventListener('scroll', function() {
 
 });
 
-document.body.onload = function(){
-	console.log("aperape");
+function makeAbsoluteHeaders(){
+	removeElementsByClass("absolute");
 	var subtitles = document.getElementsByClassName("original");
 	var content = document.getElementById("content");
 	for (var i = 0; i < subtitles.length; ++i) {
 		var newElment = subtitles[i].cloneNode(true);
 		newElment.style.position = "absolute";
-		newElment.className = "content-title";
+		newElment.className = "content-title absolute";
 		newElment.style.zIndex = i+100 + "";
 		newElment.style.top = subtitles[i].getBoundingClientRect().top + window.scrollY + "px";
 		content.appendChild(newElment);
 	}
 };
+
+function removeElementsByClass(className){
+    var elements = document.getElementsByClassName(className);
+    while(elements.length > 0){
+        elements[0].parentNode.removeChild(elements[0]);
+    }
+}

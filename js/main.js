@@ -43,7 +43,7 @@ window.addEventListener('scroll', function() {
 });
 
 function makeAbsoluteHeaders(){
-	removeElementsByClass("absolute");
+	removeElementsByClass("content-title absolute");
 	var subtitles = document.getElementsByClassName("original");
 	var content = document.getElementById("content");
 	for (var i = 0; i < subtitles.length; ++i) {

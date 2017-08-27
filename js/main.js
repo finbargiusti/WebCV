@@ -2,6 +2,10 @@
 var lastPos = window.scrollY;
 
 window.addEventListener('scroll', function() {
+	scrollEvent();
+});
+
+function scrollEvent(){
 
 	// Title position
 
@@ -40,7 +44,8 @@ window.addEventListener('scroll', function() {
 		catch(err) {}
 	}
 
-});
+
+}
 
 function makeAbsoluteHeaders(){
 	removeElementsByClass("content-title absolute");

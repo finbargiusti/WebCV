@@ -28,11 +28,9 @@ window.addEventListener('scroll', function() {
 			newElment.className = "content-title"
 			newElment.style.position = "fixed";
 			newElment.style.top = title.clientHeight + "px";
-			newElment.style.zIndex = "100";
  			try {content.removeChild(document.getElementById("hovering")); }
 			catch(err) {}
 			content.appendChild(newElment);
-			subtitles[i+1].style.zIndex = "100000";
 			++trynum;
 		}
 	}
@@ -43,3 +41,17 @@ window.addEventListener('scroll', function() {
 	}
 
 });
+
+document.body.onload = function(){
+	console.log("aperape");
+	var subtitles = document.getElementsByClassName("original");
+	var content = document.getElementById("content");
+	for (var i = 0; i < subtitles.length; ++i) {
+		var newElment = subtitles[i].cloneNode(true);
+		newElment.style.position = "absolute";
+		newElment.className = "content-title";
+		newElment.style.zIndex = i+100 + "";
+		newElment.style.top = subtitles[i].getBoundingClientRect().top + window.scrollY + "px";
+		content.appendChild(newElment);
+	}
+};

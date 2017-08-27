@@ -158,3 +158,6 @@ body {
 #header-wrapper h1 {
 	color:#1a1a1a;
 }
+#hovering {
+	z-index:100 !important;
+}

@@ -2,3 +2,6 @@ fonts/R*
 fonts/fontawesome*
 fonts/*.svg
 fonts/courgette*
+node_modules
+.cache
+dist

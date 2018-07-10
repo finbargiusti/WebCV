@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes')
+@import url('https://fonts.googleapis.com/css?family=Merienda+One')
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker')
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400')
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower')
+@import url('https://fonts.googleapis.com/css?family=Hi+Melody')
+// @import url('https://fonts.googleapis.com/css?family=Gamja+Flower')
+// @import url('https://fonts.googleapis.com/css?family=Gaegu')
+// @import url('https://fonts.googleapis.com/css?family=Pacifico')
+// @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light')
+
+
+$mobile: 200px
+$desktop: 750px
+$cursive: 'Great Vibes', cursive
+$marker: 'Permanent Marker', cursive
+$fancy: 'Merienda One', cursive
+$roboto: 'Roboto', sans-serif
+$indie: 'Indie Flower', cursive
+$hi: 'Hi Melody', cursive
+$gamja: 'Gamja Flower', cursive
+$gaegu: 'Gaegu', cursive
+$pacifico: 'Pacifico', cursive
+$shadows: 'Shadows Into Light', cursive
+
+html
+    --highlight: rgb(255, 255, 0)
+
+@keyframes loadfont 
+    0%
+        font-size: 0px
+    // 10% 
+    //     font-family: $roboto
+    20%
+        font-family: $fancy
+    // 30%
+    //     font-family: $marker
+    // 40%
+    //     font-family: $indie
+    50%
+        font-family: $hi
+    // 60%
+    //     font-family: $gamja
+    // 70%
+    //     font-family: $gaegu
+    // 80%
+    //     font-family: $pacifico
+    // 90%
+    //     font-family: $shadows
+    100%
+        font-family: $cursive
+        @media screen and (min-width: $mobile)
+            font-size: 60px
+        @media screen and (min-width: $desktop)
+            font-size: 100px
+
+// font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+
+#bg
+    @media screen and (min-width: $mobile)
+        display: none
+    @media screen and (min-width: $desktop)
+        height: 100vh
+        display: block
+        position: fixed
+        top: 0
+        left: 0
+        overflow: hidden
+        z-index: -10000
+        
+        video
+            min-height: 100vh
+            min-width: 100vw
+
+#colorPick
+    @media screen and (min-width: $mobile)
+        display: none
+    @media screen and (min-width: $desktop)
+        position: fixed
+        display: block
+        bottom: 10px
+        left: 10px
+        div
+            cursor: pointer
+            display: inline-block
+            height: 20px
+            width: 20px
+            border-radius: 20px
+            border: 2px white solid
+            margin-right: 10px
+
+.pullUpHolder
+    @media screen and (min-width: $mobile)
+        display: none
+    @media screen and (min-width: $desktop)
+        display: block
+        width: 100%
+        text-align: center
+        #pullUp
+            background-color: #222222
+            box-sizing: border-box
+            padding-left: 20px
+            padding-right: 20px
+            padding-top: 5px
+            border-top-left-radius: 10px
+            border-top-right-radius: 10px
+            font-size: 200%
+            cursor: pointer
+
+
+
+body, html
+    height: 100%
+    overflow-x: hidden
+    
+body
+    background: url("../files/bg.jpg") no-repeat center center fixed
+    background-position: cover
+
+@media screen and (min-width: $desktop)
+    ::-webkit-scrollbar 
+        width: 8px
+
+    ::-webkit-scrollbar-track 
+        background-color: rgba(0, 0, 0, 0.3)
+
+    ::-webkit-scrollbar-thumb 
+        background: rgb(40,40,40) 
+        border-radius: 10px
+
+    ::-webkit-scrollbar-thumb:hover 
+        background: var(--highlight)
+
+
+::selection
+    background-color: var(--highlight)
+
+
+.container
+    color: white
+    background: radial-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9))
+    // @media screen and (min-width: $desktop)
+    width: 100%
+    min-height: calc(100% + 30px)
+    margin: 0px
+    top: 0px
+    left: 0px
+    position: absolute
+
+    .root
+        min-height: 100vh
+        text-align: center
+        i
+            color: var(--highlight)
+            // color: black
+        a
+            text-decoration: underline
+            text-decoration-color: var(--highlight)
+            text-decoration-skip: edges
+            color: white
+        a:hover
+            color: black
+            background-color: var(--highlight)
+
+
+        ul > li::before
+                content: "⚫ "
+                color: white
+
+
+        ul
+            list-style: none
+
+
+        h1
+            font-family: $cursive
+            color: white
+            text-align: center
+            animation:  2s loadfont
+            @media screen and (min-width: $mobile)
+                font-size: 60px
+            @media screen and (min-width: $desktop)
+                font-size: 100px
+        .data
+            max-width: 90%
+            width: 800px
+            display: inline-block
+            text-align: justify
+            color: white
+            font-family: $roboto
+            font-weight: 300
+            transition: opacity 0.2s
+            
+            h3
+                font-family: $fancy
+
+            p
+                text-indent: 10px
+
+
+    .fa-bars
+        @media screen and (min-width: $mobile) and (max-width: $desktop)
+            color:white
+            position: fixed
+            top: 10px
+            left: 10px
+            font-size: 40px
+        @media screen and (min-width: $desktop)
+            display: none
+
+
+.navigate
+    @media screen and (min-width: $mobile) and (max-width: $desktop)
+        position: fixed
+        height: 100vh
+        width: 0px 
+        background-color: rgba(20, 20, 20 ,1)
+        transition: width 0.3s
+        overflow: hidden
+        z-index: 100000000000000000000
+        a
+            box-sizing: border-box
+            margin: 0
+            padding: 10px
+            font-family: $marker
+            display: block
+            width: 100%
+            float: none !important
+            text-align: center
+            text-decoration: none
+            color: white
+            
+    @media screen and (min-width: $desktop)
+        position: relative
+        height: auto
+        width: 100vw
+        a
+            float: auto 
+            font-family: $marker
+            display: inline-block
+            padding-left: 20px
+            padding-right: 20px
+            padding-top: 10px
+            padding-bottom: 10px
+            cursor: pointer
+            margin: 0
+            color: inherit
+            text-decoration: none
+            img
+                height: 1em
+                vertical-align: middle
+        a:hover 
+            background-color: rgba(255, 255, 255, 0.3)                
+            color: var(--highlight)
+    
